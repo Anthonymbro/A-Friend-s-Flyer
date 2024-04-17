@@ -17,15 +17,10 @@ body {
     background-position: center;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6); /* Adjust the transparency as needed */
+}
+
+.left-panel, .right-panel {
     text-align: center; /* Center the text */
-}
-
-.left-panel {
-    text-align: left;
-}
-
-.right-panel {
-    text-align: right;
 }
 
 h1 {
