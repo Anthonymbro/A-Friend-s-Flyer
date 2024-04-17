@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Sacramento', cursive; /* Use Sacramento font */
 }
 
 .flyer {
@@ -23,16 +23,9 @@ body {
     text-align: center; /* Center the text */
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}
-
-h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
+h1, h2 {
+    font-family: 'Sacramento', cursive; /* Use Sacramento font for headings */
+    font-weight: normal; /* Adjust font weight if needed */
 }
 
 .time {
