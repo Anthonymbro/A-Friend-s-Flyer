@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.flyer {
+    display: flex;
+    background-image: url('https://m.media-amazon.com/images/I/816BApi8sRL._AC_SY300_SX300_.jpg');
+    background-size: cover;
+}
+
+.panel {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.left-panel {
+    text-align: left;
+}
+
+.right-panel {
+    text-align: right;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.time {
+    font-size: 18px;
+}
+
+.optional-offers {
+    font-style: italic;
+}
+
+.prepare {
+    margin-top: 20px;
+}
+
+.panel p {
+    margin: 10px 0;
+}
