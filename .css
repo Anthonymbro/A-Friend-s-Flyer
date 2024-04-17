@@ -17,6 +17,7 @@ body {
     background-position: center;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6); /* Adjust the transparency as needed */
+    text-align: center; /* Center the text */
 }
 
 .left-panel {
