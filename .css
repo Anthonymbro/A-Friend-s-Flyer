@@ -6,8 +6,7 @@ body {
 
 .flyer {
     display: flex;
-    background-image: url('https://m.media-amazon.com/images/I/816BApi8sRL._AC_SY300_SX300_.jpg');
-    background-size: cover;
+    background-color: black;
 }
 
 .panel {
