@@ -14,6 +14,7 @@ body {
     color: white;
     background-image: url('https://m.media-amazon.com/images/I/816BApi8sRL._AC_SY300_SX300_.jpg');
     background-size: cover;
+    background-position: center;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6); /* Adjust the transparency as needed */
 }
