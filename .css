@@ -1,11 +1,13 @@
-body { 
-    margin: 0; 
+body {
+    margin: 0;
     padding: 0;
     font-family: 'Sacramento', cursive; /* Use Sacramento font */
-} 
-  
-.flyer { 
+    overflow: hidden; /* Hide any overflow */
+}
+
+.flyer {
     display: flex;
+    height: 100vh; /* Make the flyer container full height of the viewport */
 }
 
 .panel {
@@ -13,10 +15,11 @@ body {
     padding: 20px;
     color: white;
     background-image: url('https://m.media-amazon.com/images/I/816BApi8sRL._AC_SY300_SX300_.jpg');
-    background-size: cover;
+    background-size: cover; /* Ensure the background image covers the entire container */
     background-position: center;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    overflow-y: auto; /* Add vertical scroll if content overflows */
 }
 
 .left-panel, .right-panel {
